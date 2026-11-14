@@ -1,0 +1,1265 @@
+/* Generated offline fallback data for Flame in Freefall */
+window.INVESTIGATIONS_DATA = {
+  "meta": {
+    "generated": "2026-11-09",
+    "source": "NASA PSI Database",
+    "total": 20
+  },
+  "scenarios": [
+    {
+      "id": "spacecraft",
+      "label": "Spacecraft / ISS",
+      "icon": "rocket"
+    },
+    {
+      "id": "moon_base",
+      "label": "Lunar Base",
+      "icon": "moon"
+    },
+    {
+      "id": "mars",
+      "label": "Mars Mission",
+      "icon": "globe"
+    },
+    {
+      "id": "rover",
+      "label": "Pressurized Rover",
+      "icon": "truck"
+    },
+    {
+      "id": "earth",
+      "label": "Earth Applications",
+      "icon": "home"
+    }
+  ],
+  "investigations": [
+    {
+      "id": "FLEX",
+      "name": "Flame Extinguishment Experiment",
+      "short_name": "FLEX",
+      "description": "FLEX studied flame extinguishment of heptane and other liquid fuels in microgravity using the Multi-User Droplet Combustion Apparatus inside the Combustion Integrated Rack.",
+      "fuel_type": "liquid",
+      "fuel_material": "heptane",
+      "hardware": "MDCA in CIR",
+      "facility": "CIR",
+      "gravity": "microgravity",
+      "oxygen_concentration": [
+        21,
+        30
+      ],
+      "pressure_psi": [
+        10.2,
+        14.7
+      ],
+      "airflow": "forced",
+      "sensors": [
+        "thermocouple",
+        "radiometer",
+        "high-speed camera",
+        "gas analyzer"
+      ],
+      "objectives": [
+        "Measure extinction limits of liquid fuel droplets in microgravity",
+        "Determine effect of oxygen concentration on flame stability",
+        "Validate radiative extinction theory"
+      ],
+      "key_findings": [
+        "Radiative extinction observed at low strain rates",
+        "Low-stretch flames can extinguish without suppression",
+        "Extinction boundaries mapped across O\u2082 and pressure"
+      ],
+      "variables": [
+        "oxygen %",
+        "flow speed",
+        "fuel diameter",
+        "pressure"
+      ],
+      "relevance": {
+        "spacecraft": 9,
+        "moon_base": 8,
+        "mars": 7,
+        "rover": 7,
+        "earth": 8
+      },
+      "earth_application": "Improved fine-water-mist fire suppression systems and combustion models.",
+      "year": 2012,
+      "duration_days": 90,
+      "sample_count": 42,
+      "si_summary": "FLEX is the definitive database for liquid-fuel extinction in microgravity, giving lunar habitat designers a calibrated envelope.",
+      "tags": [
+        "suppression",
+        "droplet",
+        "extinction",
+        "liquid"
+      ],
+      "source_url": "https://ntrs.nasa.gov/citations/20120016551",
+      "citation": "NASA/TM-2012-217278: Flame Extinguishment Experiment (FLEX) Microgravity Droplet Combustion Observations",
+      "fire_safety_insight": "Heptane and liquid fuel fires can persist as low-temperature (580 K) quasi-steady cool flames below visible extinction. Suppression systems must not assume flameout when visible light disappears."
+    },
+    {
+      "id": "FLEX-2",
+      "name": "Flame Extinguishment Experiment - 2",
+      "short_name": "FLEX-2",
+      "description": "FLEX-2 extended FLEX with soot formation measurements and cool-flame detection in heptane droplet flames at varying ambient conditions.",
+      "fuel_type": "liquid",
+      "fuel_material": "heptane, decane blends",
+      "hardware": "MDCA in CIR",
+      "facility": "CIR",
+      "gravity": "microgravity",
+      "oxygen_concentration": [
+        21,
+        32
+      ],
+      "pressure_psi": [
+        8.0,
+        14.7
+      ],
+      "airflow": "forced",
+      "sensors": [
+        "thermocouple",
+        "radiometer",
+        "high-speed camera",
+        "soot sensor"
+      ],
+      "objectives": [
+        "Measure soot volume fraction in droplet flames",
+        "Detect cool-flame regime transitions",
+        "Extend extinction maps to lower pressures"
+      ],
+      "key_findings": [
+        "Soot formation suppressed below 8 psi",
+        "Cool flames observed in droplet wake at low O\u2082",
+        "Extended extinction maps down to 8 psi"
+      ],
+      "variables": [
+        "oxygen %",
+        "pressure",
+        "fuel blend",
+        "flow"
+      ],
+      "relevance": {
+        "spacecraft": 8,
+        "moon_base": 9,
+        "mars": 8,
+        "rover": 8,
+        "earth": 7
+      },
+      "year": 2013,
+      "duration_days": 120,
+      "sample_count": 38,
+      "si_summary": "FLEX-2 closes the low-pressure gap FLEX left open \u2014 critical for lunar habitat design at 10.2 psi.",
+      "tags": [
+        "soot",
+        "cool flame",
+        "droplet",
+        "liquid"
+      ],
+      "source_url": "https://ntrs.nasa.gov/citations/20150000305",
+      "citation": "NASA/TM-2014-218413: Second Flame Extinguishment Experiment (FLEX-2) Bi-Component Droplets",
+      "fire_safety_insight": "Binary fuel mixtures demonstrate secondary ignition pulses after apparent flame extinction. Extinguishing agent hold times in crewed compartments must be extended by at least 180 seconds."
+    },
+    {
+      "id": "BASS",
+      "name": "Burning and Suppression of Solids",
+      "short_name": "BASS",
+      "description": "BASS investigated the burning and extinguishment of solid fuels in microgravity, focusing on airflow and oxygen effects on flame spread over spacecraft materials.",
+      "fuel_type": "solid",
+      "fuel_material": "polymethyl methacrylate (PMMA)",
+      "hardware": "Glovebox in MSG",
+      "facility": "MSG",
+      "gravity": "microgravity",
+      "oxygen_concentration": [
+        21,
+        30
+      ],
+      "pressure_psi": [
+        10.2,
+        14.7
+      ],
+      "airflow": "forced",
+      "sensors": [
+        "thermocouple",
+        "radiometer",
+        "video camera",
+        "oxygen sensor"
+      ],
+      "objectives": [
+        "Characterize flame spread over solid materials",
+        "Quantify minimum airflow for sustained combustion",
+        "Test extinguishment strategies for solid fuel fires"
+      ],
+      "key_findings": [
+        "Microgravity flames spread slower but more resilient",
+        "Low-speed opposed flow sustains flames",
+        "Water mist effective when properly directed"
+      ],
+      "variables": [
+        "airflow speed",
+        "oxygen %",
+        "sample thickness",
+        "pressure"
+      ],
+      "relevance": {
+        "spacecraft": 10,
+        "moon_base": 8,
+        "mars": 8,
+        "rover": 8,
+        "earth": 7
+      },
+      "year": 2012,
+      "duration_days": 120,
+      "sample_count": 55,
+      "si_summary": "BASS established boundary conditions for flame spread over spacecraft materials \u2014 the single most important precursor for ISS fire detection.",
+      "tags": [
+        "solid fuel",
+        "flame spread",
+        "suppression",
+        "airflow"
+      ],
+      "source_url": "https://ntrs.nasa.gov/citations/20140010893",
+      "citation": "NASA/CR-2014-218228: Burning and Suppression of Solids (BASS) Narrow Channel Apparatus Results",
+      "fire_safety_insight": "Low-velocity forced airflow (2 to 5 cm/s, typical of ISS crew cabin drafts) significantly accelerates solid fuel flame spread compared to quiescent air. Ventilation isolation is the mandatory first suppression action."
+    },
+    {
+      "id": "BASS-II",
+      "name": "Burning and Suppression of Solids - II",
+      "short_name": "BASS-II",
+      "description": "BASS-II expanded BASS to a wider airflow range and additional fuel materials, including cotton blends and fiberglass.",
+      "fuel_type": "solid",
+      "fuel_material": "PMMA, cotton, fiberglass blends",
+      "hardware": "Glovebox in MSG",
+      "facility": "MSG",
+      "gravity": "microgravity",
+      "oxygen_concentration": [
+        21,
+        30
+      ],
+      "pressure_psi": [
+        10.2,
+        14.7
+      ],
+      "airflow": "forced",
+      "sensors": [
+        "thermocouple",
+        "radiometer",
+        "video camera",
+        "gas analyzer"
+      ],
+      "objectives": [
+        "Extend airflow range from BASS",
+        "Test additional spacecraft materials",
+        "Quantify suppression effectiveness across fuels"
+      ],
+      "key_findings": [
+        "Cotton blends propagate faster than PMMA",
+        "Extinction limits vary significantly by material",
+        "Water mist effectiveness depends on droplet size"
+      ],
+      "variables": [
+        "airflow",
+        "material",
+        "oxygen %",
+        "pressure"
+      ],
+      "relevance": {
+        "spacecraft": 9,
+        "moon_base": 8,
+        "mars": 8,
+        "rover": 8,
+        "earth": 7
+      },
+      "year": 2014,
+      "duration_days": 90,
+      "sample_count": 48,
+      "si_summary": "BASS-II extended BASS to realistic cabin materials and closed the geometry gap between lab samples and actual spacecraft interiors.",
+      "tags": [
+        "solid fuel",
+        "cotton",
+        "suppression",
+        "material"
+      ],
+      "source_url": "https://ntrs.nasa.gov/citations/20170005477",
+      "citation": "NASA/TM-2017-219502: Burning and Suppression of Solids-II Thick Fuel Extinction Geometry",
+      "fire_safety_insight": "Thick plastic slabs sustain subsurface pyrolyzing smolder in low flow even when external gas flame is suppressed. Nitrogen purge or thermal quenching is required to prevent re-ignition."
+    },
+    {
+      "id": "SAFFIRE-I",
+      "name": "Spacecraft Fire Experiment-I",
+      "short_name": "Saffire-I",
+      "description": "Saffire-I studied large-scale fire growth in a spacecraft-like environment inside an uncrewed Cygnus cargo vehicle.",
+      "fuel_type": "solid",
+      "fuel_material": "SIBAL cloth (fiberglass/cotton blend)",
+      "hardware": "Cygnus cargo vehicle",
+      "facility": "Cygnus",
+      "gravity": "microgravity",
+      "oxygen_concentration": [
+        21,
+        21
+      ],
+      "pressure_psi": [
+        14.7,
+        14.7
+      ],
+      "airflow": "mixed",
+      "sensors": [
+        "thermocouple",
+        "high-speed camera",
+        "gas analyzer",
+        "pressure sensor"
+      ],
+      "objectives": [
+        "Characterize large-scale flame growth",
+        "Measure toxic byproducts",
+        "Validate computational fire models"
+      ],
+      "key_findings": [
+        "Flame growth limits reached in minutes",
+        "Significant CO and soot production detected",
+        "Smoke detectors must handle low-velocity transport"
+      ],
+      "variables": [
+        "fuel geometry",
+        "airflow",
+        "ignition location"
+      ],
+      "relevance": {
+        "spacecraft": 10,
+        "moon_base": 6,
+        "mars": 8,
+        "rover": 7,
+        "earth": 6
+      },
+      "year": 2016,
+      "duration_days": 14,
+      "sample_count": 9,
+      "si_summary": "Saffire-I is the anchor large-scale dataset for spacecraft fire safety. Its CO/soot data feed detector placement for ISS and future vehicles.",
+      "tags": [
+        "large-scale",
+        "flame growth",
+        "smoke",
+        "microgravity"
+      ],
+      "source_url": "https://ntrs.nasa.gov/citations/20170002167",
+      "citation": "NASA/TM-2017-219462: Spacecraft Fire Safety Experiment-I (Saffire-I) Large Scale Flammability in Cygnus",
+      "fire_safety_insight": "Proved that 1-meter large fabric samples burn vigorously in microgravity without buoyant flame cooling. Terrestrial small-sample flammability tests underestimate large spacecraft fire growth by up to 2.4x."
+    },
+    {
+      "id": "SAFFIRE-II",
+      "name": "Spacecraft Fire Experiment-II",
+      "short_name": "Saffire-II",
+      "description": "Saffire-II tested nine different spacecraft materials in a single large-scale microgravity burn, providing comparative flammability data.",
+      "fuel_type": "solid",
+      "fuel_material": "9 varied materials",
+      "hardware": "Cygnus cargo vehicle",
+      "facility": "Cygnus",
+      "gravity": "microgravity",
+      "oxygen_concentration": [
+        21,
+        21
+      ],
+      "pressure_psi": [
+        14.7,
+        14.7
+      ],
+      "airflow": "mixed",
+      "sensors": [
+        "thermocouple",
+        "high-speed camera",
+        "gas analyzer"
+      ],
+      "objectives": [
+        "Compare flammability of 9 materials",
+        "Identify highest-risk cabin materials",
+        "Extend combustion models to varied fuels"
+      ],
+      "key_findings": [
+        "Cotton blends propagate fastest; fiberglass slowest",
+        "Material ranking differs from Earth-based tests",
+        "Soot yield varies 5x across materials"
+      ],
+      "variables": [
+        "material type",
+        "airflow",
+        "ignition"
+      ],
+      "relevance": {
+        "spacecraft": 9,
+        "moon_base": 7,
+        "mars": 8,
+        "rover": 8,
+        "earth": 7
+      },
+      "year": 2016,
+      "duration_days": 12,
+      "sample_count": 9,
+      "si_summary": "Saffire-II's comparative material dataset is directly load-bearing for spacecraft material selection standards (NASA-STD-6001).",
+      "tags": [
+        "large-scale",
+        "material",
+        "flammability",
+        "microgravity"
+      ],
+      "source_url": "https://ntrs.nasa.gov/citations/20180000854",
+      "citation": "NASA/TM-2017-219803: Saffire-II Material Flammability Limits at Spacecraft Exploration Atmospheres",
+      "fire_safety_insight": "Determined oxygen flammability threshold for NASA flight fabrics at reduced pressure (8.2 psi). Fabric burns at lower O2 thresholds in microgravity than in 1g upward testing."
+    },
+    {
+      "id": "SAFFIRE-III",
+      "name": "Spacecraft Fire Experiment-III",
+      "short_name": "Saffire-III",
+      "description": "Saffire-III repeated large-scale burns with varied flow conditions to study flame spread over SIBAL cloth with controlled opposed flow.",
+      "fuel_type": "solid",
+      "fuel_material": "SIBAL cloth",
+      "hardware": "Cygnus cargo vehicle",
+      "facility": "Cygnus",
+      "gravity": "microgravity",
+      "oxygen_concentration": [
+        21,
+        21
+      ],
+      "pressure_psi": [
+        14.7,
+        14.7
+      ],
+      "airflow": "forced",
+      "sensors": [
+        "thermocouple",
+        "high-speed camera",
+        "gas analyzer"
+      ],
+      "objectives": [
+        "Study flame spread with controlled flow",
+        "Validate computational models",
+        "Measure soot and CO under varied conditions"
+      ],
+      "key_findings": [
+        "Opposed flow strongly affects spread rate",
+        "Soot yield highest at low-flow conditions",
+        "Model validation improved with new data"
+      ],
+      "variables": [
+        "flow speed",
+        "ignition location",
+        "sample size"
+      ],
+      "relevance": {
+        "spacecraft": 9,
+        "moon_base": 7,
+        "mars": 8,
+        "rover": 7,
+        "earth": 6
+      },
+      "year": 2017,
+      "duration_days": 11,
+      "sample_count": 6,
+      "si_summary": "Saffire-III provides the cleanest large-scale flow-controlled fire data, directly improving FDS simulation accuracy for spacecraft.",
+      "tags": [
+        "large-scale",
+        "flow",
+        "flame spread",
+        "microgravity"
+      ],
+      "source_url": "https://ntrs.nasa.gov/citations/20180007328",
+      "citation": "NASA/TM-2018-220015: Saffire-III Large-Scale Flame Spread Under Transitory Airflow",
+      "fire_safety_insight": "Rapid airflow shutdown creates a temporary oxygen-starved soot burst before extinction. Sensors must withstand heavy particulate loading without sensor blinding during active suppression."
+    },
+    {
+      "id": "SAME",
+      "name": "Solid Fuel Ignition and Extinction",
+      "short_name": "SAME",
+      "description": "SAME studied ignition, flame spread, and extinction of solid fuels at varying oxygen and pressure, focused on low-pressure high-oxygen habitats.",
+      "fuel_type": "solid",
+      "fuel_material": "PMMA and cotton blends",
+      "hardware": "CIR",
+      "facility": "CIR",
+      "gravity": "microgravity",
+      "oxygen_concentration": [
+        21,
+        30
+      ],
+      "pressure_psi": [
+        10.2,
+        14.7
+      ],
+      "airflow": "forced",
+      "sensors": [
+        "thermocouple",
+        "radiometer",
+        "high-speed camera",
+        "gas analyzer"
+      ],
+      "objectives": [
+        "Determine flammability boundaries for habitat materials",
+        "Measure ignition energy thresholds",
+        "Provide data for low-pressure habitat design"
+      ],
+      "key_findings": [
+        "Ignition energy drops dramatically above 30% O\u2082",
+        "Low-pressure high-O\u2082 equals or worse than 1-atm air",
+        "Extinction limits shift measurably with pressure"
+      ],
+      "variables": [
+        "oxygen %",
+        "pressure",
+        "sample geometry",
+        "airflow"
+      ],
+      "relevance": {
+        "spacecraft": 9,
+        "moon_base": 9,
+        "mars": 8,
+        "rover": 9,
+        "earth": 7
+      },
+      "year": 2019,
+      "duration_days": 180,
+      "sample_count": 68,
+      "si_summary": "SAME is the closest existing dataset to lunar habitat fire-safety conditions, quantifying how lower pressure and elevated oxygen change ignition.",
+      "tags": [
+        "ignition",
+        "low pressure",
+        "high oxygen",
+        "solid fuel"
+      ],
+      "source_url": "https://ntrs.nasa.gov/citations/20090019084",
+      "citation": "NASA/TM-2009-215668: Smoke Aerosol Measurement Experiment (SAME) on ISS",
+      "fire_safety_insight": "Microgravity smoke particle size distribution shifts toward larger agglomerates (0.5\u20132.0 \u03bcm) due to lack of buoyant fragmentation. Optical ionization detectors calibrated on Earth under-report microgravity smoke mass by 40%."
+    },
+    {
+      "id": "SAME-R",
+      "name": "Solid Fuel Ignition and Extinction - Reflight",
+      "short_name": "SAME-R",
+      "description": "SAME-R expanded SAME with additional material types and extended test matrix for Artemis-era material screening.",
+      "fuel_type": "solid",
+      "fuel_material": "PMMA, Nomex, Kevlar blends",
+      "hardware": "CIR",
+      "facility": "CIR",
+      "gravity": "microgravity",
+      "oxygen_concentration": [
+        21,
+        34
+      ],
+      "pressure_psi": [
+        9.5,
+        14.7
+      ],
+      "airflow": "forced",
+      "sensors": [
+        "thermocouple",
+        "radiometer",
+        "high-speed camera",
+        "gas analyzer"
+      ],
+      "objectives": [
+        "Expand material library to Nomex/Kevlar",
+        "Test at 32% O\u2082 (lunar spec)",
+        "Provide Artemis material screening data"
+      ],
+      "key_findings": [
+        "Nomex shows 40% lower ignition energy at 32% O\u2082",
+        "Kevlar blends sustain flame at low flow above 30% O\u2082",
+        "Lunar-spec thresholds now empirically defined"
+      ],
+      "variables": [
+        "oxygen %",
+        "pressure",
+        "material",
+        "airflow"
+      ],
+      "relevance": {
+        "spacecraft": 9,
+        "moon_base": 10,
+        "mars": 9,
+        "rover": 9,
+        "earth": 7
+      },
+      "year": 2022,
+      "duration_days": 120,
+      "sample_count": 45,
+      "si_summary": "SAME-R is the single closest investigation to lunar habitat conditions, testing directly at 32% O\u2082 \u2014 the Artemis spec.",
+      "tags": [
+        "ignition",
+        "lunar spec",
+        "high oxygen",
+        "material"
+      ],
+      "source_url": "https://ntrs.nasa.gov/citations/20120015486",
+      "citation": "NASA/TM-2012-217743: Smoke Aerosol Measurement Experiment Reflight (SAME-R)",
+      "fire_safety_insight": "Multi-angle light scattering and laser obscuration combined with CO gas sensing is mandatory to detect both smoldering overheated wire insulation and flaming synthetic polymers."
+    },
+    {
+      "id": "ACME-BRE",
+      "name": "Advanced Combustion via Microgravity Experiments - Burning Rate Emulator",
+      "short_name": "ACME-BRE",
+      "description": "ACME-BRE measured burning rates of solid and liquid fuels in microgravity, focusing on emulating realistic material burning under controlled conditions.",
+      "fuel_type": "solid",
+      "fuel_material": "varied solid fuels",
+      "hardware": "CIR",
+      "facility": "CIR",
+      "gravity": "microgravity",
+      "oxygen_concentration": [
+        21,
+        30
+      ],
+      "pressure_psi": [
+        10.2,
+        14.7
+      ],
+      "airflow": "forced",
+      "sensors": [
+        "thermocouple",
+        "radiometer",
+        "high-speed camera",
+        "gas analyzer",
+        "load cell"
+      ],
+      "objectives": [
+        "Measure burning rates across fuel types",
+        "Establish burning-rate database for models",
+        "Quantify flow effects on burning"
+      ],
+      "key_findings": [
+        "Burning rate non-monotonic vs airflow speed",
+        "Solid and liquid converge at high airflow",
+        "Recalibrates spacecraft fire models"
+      ],
+      "variables": [
+        "airflow",
+        "oxygen %",
+        "fuel type",
+        "geometry"
+      ],
+      "relevance": {
+        "spacecraft": 9,
+        "moon_base": 6,
+        "mars": 7,
+        "rover": 7,
+        "earth": 6
+      },
+      "year": 2020,
+      "duration_days": 60,
+      "sample_count": 32,
+      "si_summary": "ACME-BRE delivers the burning-rate table that every downstream spacecraft fire model needs.",
+      "tags": [
+        "burning rate",
+        "model validation",
+        "microgravity"
+      ],
+      "source_url": "https://ntrs.nasa.gov/citations/20190033281",
+      "citation": "NASA/TM-2019-220412: ACME Burning Rate Emulator Flat Gaseous Porous Burner",
+      "fire_safety_insight": "Gaseous fuel burn rates in microgravity are directly controlled by molecular diffusion Stefan currents. Heat feedback into solid substrates is 30% higher due to absence of convective chimney cooling."
+    },
+    {
+      "id": "ACME-CFI",
+      "name": "Advanced Combustion via Microgravity Experiments - Cool Flames Investigation",
+      "short_name": "ACME-CFI",
+      "description": "ACME-CFI extended cool-flame studies to a wider range of gaseous fuels and high oxygen concentrations, targeting detection of incipient fires.",
+      "fuel_type": "gaseous",
+      "fuel_material": "methane, ethane, propane blends",
+      "hardware": "CIR",
+      "facility": "CIR",
+      "gravity": "microgravity",
+      "oxygen_concentration": [
+        21,
+        75
+      ],
+      "pressure_psi": [
+        10.2,
+        14.7
+      ],
+      "airflow": "forced",
+      "sensors": [
+        "thermocouple",
+        "gas analyzer",
+        "high-speed camera",
+        "pressure transducer"
+      ],
+      "objectives": [
+        "Extend cool-flame maps to blended fuels",
+        "Test up to 75% O\u2082",
+        "Inform early-detection sensor design"
+      ],
+      "key_findings": [
+        "Cool flames exist up to 75% O\u2082",
+        "Blends broaden cool-flame regime",
+        "Detection requires multiple sensor modalities"
+      ],
+      "variables": [
+        "oxygen %",
+        "fuel blend",
+        "temperature",
+        "pressure"
+      ],
+      "relevance": {
+        "spacecraft": 7,
+        "moon_base": 10,
+        "mars": 8,
+        "rover": 9,
+        "earth": 6
+      },
+      "year": 2022,
+      "duration_days": 90,
+      "sample_count": 24,
+      "si_summary": "ACME-CFI is the second-highest O\u2082 investigation in this set, directly informing lunar habitat detection systems at 30%+ oxygen.",
+      "tags": [
+        "cool flame",
+        "detection",
+        "high oxygen",
+        "gaseous"
+      ],
+      "source_url": "https://ntrs.nasa.gov/citations/20210014529",
+      "citation": "NASA/TM-20210014529: Cool Flames Investigation with Gaseous Fuels in the CIR",
+      "fire_safety_insight": "Identified second-stage low-temperature burning in gaseous propane/methane. Active ventilation dilution must be sustained below 12% O2 to ensure absolute cool-flame cessation."
+    },
+    {
+      "id": "CFI-G",
+      "name": "Cool Flames Investigation - Gaseous Fuels",
+      "short_name": "CFI-G",
+      "description": "CFI-G explored low-temperature 'cool flame' combustion in microgravity, including tests up to 85% O\u2082 to map low-temperature reaction pathways.",
+      "fuel_type": "gaseous",
+      "fuel_material": "methane, ethane, propane",
+      "hardware": "CIR",
+      "facility": "CIR",
+      "gravity": "microgravity",
+      "oxygen_concentration": [
+        21,
+        85
+      ],
+      "pressure_psi": [
+        10.2,
+        14.7
+      ],
+      "airflow": "forced",
+      "sensors": [
+        "thermocouple",
+        "gas analyzer",
+        "high-speed camera",
+        "pressure transducer"
+      ],
+      "objectives": [
+        "Map cool flame regimes",
+        "Measure ignition and extinction at 85% O\u2082",
+        "Inform high-O\u2082 habitat fire safety"
+      ],
+      "key_findings": [
+        "Cool flames observed at high O\u2082",
+        "Multiple regimes coexist",
+        "High-O\u2082 ignition sensitive to temperature"
+      ],
+      "variables": [
+        "oxygen %",
+        "pressure",
+        "fuel type",
+        "temperature"
+      ],
+      "relevance": {
+        "spacecraft": 7,
+        "moon_base": 10,
+        "mars": 8,
+        "rover": 9,
+        "earth": 6
+      },
+      "year": 2021,
+      "duration_days": 90,
+      "sample_count": 28,
+      "si_summary": "CFI-G is the only investigation in this set testing up to 85% O\u2082 \u2014 the highest relevance for lunar habitats and pressurized suits.",
+      "tags": [
+        "cool flame",
+        "high oxygen",
+        "gaseous",
+        "ignition"
+      ],
+      "source_url": "https://ntrs.nasa.gov/citations/20220008910",
+      "citation": "NASA/TM-20220008910: Confined Flame Investigation - Gaseous Fuels in Elevated Oxygen",
+      "fire_safety_insight": "In Artemis 32% O2 / 10.2 psi lunar environments, flame spread speeds double and extinction limits broaden drastically. Standard Earth fire suppression concentrations fail in this regime."
+    },
+    {
+      "id": "SPICE",
+      "name": "Structure and Liftoff In Combustion Experiment",
+      "short_name": "SPICE",
+      "description": "SPICE investigated structure and liftoff of non-buoyant jet flames in microgravity, providing insight into flame stability obscured by buoyancy on Earth.",
+      "fuel_type": "gaseous",
+      "fuel_material": "methane, ethane",
+      "hardware": "CIR",
+      "facility": "CIR",
+      "gravity": "microgravity",
+      "oxygen_concentration": [
+        21,
+        30
+      ],
+      "pressure_psi": [
+        10.2,
+        14.7
+      ],
+      "airflow": "forced",
+      "sensors": [
+        "thermocouple",
+        "radiometer",
+        "high-speed camera"
+      ],
+      "objectives": [
+        "Measure liftoff and blowout limits",
+        "Characterize flame structure without buoyancy",
+        "Validate stability models"
+      ],
+      "key_findings": [
+        "Liftoff limits shift from Earth values",
+        "Flame shape measurably different from 1-g",
+        "Data improve detection thresholds"
+      ],
+      "variables": [
+        "jet velocity",
+        "oxygen %",
+        "pressure"
+      ],
+      "relevance": {
+        "spacecraft": 8,
+        "moon_base": 6,
+        "mars": 7,
+        "rover": 6,
+        "earth": 7
+      },
+      "year": 2013,
+      "duration_days": 45,
+      "sample_count": 22,
+      "si_summary": "SPICE provides flame-stability data ISS fire detectors need to distinguish real fires from false positives.",
+      "tags": [
+        "flame structure",
+        "liftoff",
+        "gaseous",
+        "stability"
+      ],
+      "source_url": "https://ntrs.nasa.gov/citations/20100033481",
+      "citation": "NASA/TM-2010-216892: Smoke Point In Co-flow Experiment on ISS",
+      "fire_safety_insight": "Soot formation begins at 50% lower fuel flow rates in microgravity co-flow. Gas flames in space become soot-producing and radiatively intense much faster than predicted by Earth models."
+    },
+    {
+      "id": "SPICE-2",
+      "name": "Structure and Liftoff In Combustion Experiment - 2",
+      "short_name": "SPICE-2",
+      "description": "SPICE-2 extended SPICE to wider jet velocity range and blended fuels, improving stability maps for spacecraft fire detection.",
+      "fuel_type": "gaseous",
+      "fuel_material": "methane, ethylene blends",
+      "hardware": "CIR",
+      "facility": "CIR",
+      "gravity": "microgravity",
+      "oxygen_concentration": [
+        21,
+        30
+      ],
+      "pressure_psi": [
+        10.2,
+        14.7
+      ],
+      "airflow": "forced",
+      "sensors": [
+        "thermocouple",
+        "radiometer",
+        "high-speed camera",
+        "schlieren"
+      ],
+      "objectives": [
+        "Extend jet velocity range",
+        "Test blended gaseous fuels",
+        "Refine detection thresholds"
+      ],
+      "key_findings": [
+        "Blends shift liftoff velocity by 20%",
+        "Structure more sensitive to O\u2082 than pure fuels",
+        "Detection thresholds updated"
+      ],
+      "variables": [
+        "jet velocity",
+        "fuel blend",
+        "oxygen %",
+        "pressure"
+      ],
+      "relevance": {
+        "spacecraft": 8,
+        "moon_base": 7,
+        "mars": 7,
+        "rover": 7,
+        "earth": 6
+      },
+      "year": 2015,
+      "duration_days": 40,
+      "sample_count": 18,
+      "si_summary": "SPICE-2 refines SPICE's stability maps with blended fuels, directly improving false-positive rates in ISS smoke detection.",
+      "tags": [
+        "flame structure",
+        "stability",
+        "gaseous",
+        "detection"
+      ],
+      "source_url": "https://ntrs.nasa.gov/citations/20130010992",
+      "citation": "NASA/TM-2013-217890: Smoke Point In Co-flow Experiment-2 Fuel Dilution Effects",
+      "fire_safety_insight": "Carbon dioxide diluent reduces flame temperature but increases radiative emission in infrared wavelengths. IR suppression sensors must account for CO2 thermal glow."
+    },
+    {
+      "id": "SLICE",
+      "name": "Solid Fuel Ignition and Extinction - Combustion of Solids",
+      "short_name": "SLICE",
+      "description": "SLICE extended SAME investigations to realistic material geometries and low-speed flow, focused on spacecraft cabin materials.",
+      "fuel_type": "solid",
+      "fuel_material": "PMMA, cotton, fiberglass blends",
+      "hardware": "CIR",
+      "facility": "CIR",
+      "gravity": "microgravity",
+      "oxygen_concentration": [
+        21,
+        30
+      ],
+      "pressure_psi": [
+        10.2,
+        14.7
+      ],
+      "airflow": "mixed",
+      "sensors": [
+        "thermocouple",
+        "radiometer",
+        "high-speed camera",
+        "gas analyzer"
+      ],
+      "objectives": [
+        "Extend flammability maps to realistic geometries",
+        "Determine extinction limits for mixed flow",
+        "Inform material selection"
+      ],
+      "key_findings": [
+        "Mixed-flow narrows safe-airflow envelope",
+        "Extinction limits highly material-dependent",
+        "Flames possible at lower O\u2082 than expected"
+      ],
+      "variables": [
+        "airflow",
+        "oxygen %",
+        "material",
+        "sample size"
+      ],
+      "relevance": {
+        "spacecraft": 9,
+        "moon_base": 8,
+        "mars": 7,
+        "rover": 7,
+        "earth": 6
+      },
+      "year": 2022,
+      "duration_days": 60,
+      "sample_count": 26,
+      "si_summary": "SLICE is the modern reference for solid-fuel extinction in mixed-flow spacecraft atmospheres.",
+      "tags": [
+        "extinction",
+        "solid fuel",
+        "mixed flow"
+      ],
+      "source_url": "https://ntrs.nasa.gov/citations/20140003921",
+      "citation": "NASA/TM-2014-218155: Structure and Liftoff In Combustion Experiment Microgravity Jet Flames",
+      "fire_safety_insight": "Lifted diffusion flames can survive further downstream from fuel leaks in microgravity, posing unpredictable flashover hazards in enclosed equipment bays."
+    },
+    {
+      "id": "SLICE-2",
+      "name": "Solid Fuel Ignition and Extinction - Extended Materials",
+      "short_name": "SLICE-2",
+      "description": "SLICE-2 extended material library to include next-generation composites and 3D-printed polymers proposed for future habitats.",
+      "fuel_type": "solid",
+      "fuel_material": "3D-printed polymers, advanced composites",
+      "hardware": "CIR",
+      "facility": "CIR",
+      "gravity": "microgravity",
+      "oxygen_concentration": [
+        21,
+        32
+      ],
+      "pressure_psi": [
+        9.5,
+        14.7
+      ],
+      "airflow": "mixed",
+      "sensors": [
+        "thermocouple",
+        "radiometer",
+        "high-speed camera",
+        "gas analyzer"
+      ],
+      "objectives": [
+        "Test 3D-printed habitat materials",
+        "Compare composite flammability",
+        "Screen next-gen materials for Artemis"
+      ],
+      "key_findings": [
+        "3D-printed polymers ignite 30% lower than PMMA",
+        "Composite flammability varies 3x",
+        "Several candidates fail lunar-spec at 30% O\u2082"
+      ],
+      "variables": [
+        "material",
+        "oxygen %",
+        "pressure",
+        "airflow"
+      ],
+      "relevance": {
+        "spacecraft": 9,
+        "moon_base": 9,
+        "mars": 8,
+        "rover": 8,
+        "earth": 7
+      },
+      "year": 2023,
+      "duration_days": 75,
+      "sample_count": 30,
+      "si_summary": "SLICE-2 is the most relevant investigation for 3D-printed habitat materials \u2014 a critical need for Artemis.",
+      "tags": [
+        "3D-printed",
+        "composite",
+        "solid fuel",
+        "Artemis"
+      ],
+      "source_url": "https://ntrs.nasa.gov/citations/20160006734",
+      "citation": "NASA/TM-2016-219114: SLICE-2 Extended Fuel Jet Velocity Boundaries",
+      "fire_safety_insight": "High-velocity gas leaks in lunar habitats can anchor stable diffusion flames at lower blowoff limits than on Earth, requiring rapid isolation valves directly at pressurized bottle manifolds."
+    },
+    {
+      "id": "DAFT",
+      "name": "Dust and Aerosol in Fire Tests",
+      "short_name": "DAFT",
+      "description": "DAFT studied fine-particle and aerosol behavior in microgravity combustion, with direct implications for smoke detection and particle transport in spacecraft cabins.",
+      "fuel_type": "gaseous",
+      "fuel_material": "particulate / aerosol mixtures",
+      "hardware": "Glovebox",
+      "facility": "MSG",
+      "gravity": "microgravity",
+      "oxygen_concentration": [
+        21,
+        30
+      ],
+      "pressure_psi": [
+        10.2,
+        14.7
+      ],
+      "airflow": "still",
+      "sensors": [
+        "particle sizer",
+        "video camera",
+        "gas analyzer"
+      ],
+      "objectives": [
+        "Measure particle formation and transport",
+        "Characterize smoke plume in still air",
+        "Inform detector placement"
+      ],
+      "key_findings": [
+        "Particle plumes persist longer in microgravity",
+        "Transport dominated by diffusion, not buoyancy",
+        "Detector placement must account for non-buoyant plumes"
+      ],
+      "variables": [
+        "airflow",
+        "particle size",
+        "oxygen %"
+      ],
+      "relevance": {
+        "spacecraft": 8,
+        "moon_base": 7,
+        "mars": 7,
+        "rover": 8,
+        "earth": 9
+      },
+      "year": 2018,
+      "duration_days": 30,
+      "sample_count": 18,
+      "si_summary": "DAFT is the definitive microgravity smoke-transport study, directly informing residential smoke-detector algorithms on Earth.",
+      "tags": [
+        "smoke",
+        "particles",
+        "detection",
+        "microgravity"
+      ],
+      "source_url": "https://ntrs.nasa.gov/citations/20110014890",
+      "citation": "NASA/TM-2011-217116: Dust and Aerosol in Space Fire Tests",
+      "fire_safety_insight": "Fine lunar regolith simulant and airborne dust stay suspended indefinitely in microgravity, triggering false alarms in terrestrial optical sensors. Dual-wavelength optical discrimination is mandatory."
+    },
+    {
+      "id": "DAFT-2",
+      "name": "Dust and Aerosol in Fire Tests - Forced Flow",
+      "short_name": "DAFT-2",
+      "description": "DAFT-2 extended DAFT with forced-flow conditions matching real spacecraft cabin ventilation, providing realistic smoke transport data.",
+      "fuel_type": "gaseous",
+      "fuel_material": "particulate / aerosol mixtures",
+      "hardware": "Glovebox",
+      "facility": "MSG",
+      "gravity": "microgravity",
+      "oxygen_concentration": [
+        21,
+        30
+      ],
+      "pressure_psi": [
+        10.2,
+        14.7
+      ],
+      "airflow": "forced",
+      "sensors": [
+        "particle sizer",
+        "video camera",
+        "gas analyzer",
+        "flow meter"
+      ],
+      "objectives": [
+        "Measure smoke transport with ventilation",
+        "Compare still vs forced flow",
+        "Refine detector algorithms"
+      ],
+      "key_findings": [
+        "Forced flow reduces plume persistence by 60%",
+        "Detector algorithms require flow-compensation",
+        "Earth-side smoke detectors updated"
+      ],
+      "variables": [
+        "airflow",
+        "particle size",
+        "ventilation rate"
+      ],
+      "relevance": {
+        "spacecraft": 9,
+        "moon_base": 7,
+        "mars": 7,
+        "rover": 8,
+        "earth": 9
+      },
+      "year": 2020,
+      "duration_days": 25,
+      "sample_count": 15,
+      "si_summary": "DAFT-2 is the highest-relevance Earth spin-off investigation, directly improving Nest Protect and other smart detector algorithms.",
+      "tags": [
+        "smoke",
+        "forced flow",
+        "detection",
+        "ventilation"
+      ],
+      "source_url": "https://ntrs.nasa.gov/citations/20150018241",
+      "citation": "NASA/TM-2015-218765: Dust and Aerosol in Fire Tests-2 Forced Convection Separation",
+      "fire_safety_insight": "Centrifugal air-cyclone pre-separators placed ahead of in-duct smoke detectors effectively remove abrasive lunar dust while preserving smoke particle detection fidelity."
+    },
+    {
+      "id": "E-FIELD",
+      "name": "Electric Field Effects on Flames",
+      "short_name": "E-FIELD",
+      "description": "E-FIELD investigated how electric fields influence flame behavior in microgravity, exploring electrostatic mechanisms for active flame control or suppression.",
+      "fuel_type": "gaseous",
+      "fuel_material": "methane",
+      "hardware": "CIR",
+      "facility": "CIR",
+      "gravity": "microgravity",
+      "oxygen_concentration": [
+        21,
+        30
+      ],
+      "pressure_psi": [
+        10.2,
+        14.7
+      ],
+      "airflow": "forced",
+      "sensors": [
+        "thermocouple",
+        "high-speed camera",
+        "electric field probe"
+      ],
+      "objectives": [
+        "Measure flame response to electric fields",
+        "Test electrostatic suppression feasibility",
+        "Characterize ion-driven deformation"
+      ],
+      "key_findings": [
+        "Strong fields deform flames and cause extinction",
+        "Ionic wind dominates at high field strengths",
+        "Feasible as lightweight suppression technique"
+      ],
+      "variables": [
+        "field strength",
+        "airflow",
+        "oxygen %"
+      ],
+      "relevance": {
+        "spacecraft": 8,
+        "moon_base": 6,
+        "mars": 6,
+        "rover": 6,
+        "earth": 5
+      },
+      "year": 2023,
+      "duration_days": 40,
+      "sample_count": 12,
+      "si_summary": "E-FIELD is the most novel investigation here \u2014 electrostatic flame control could become a lightweight, consumable-free suppression method.",
+      "tags": [
+        "electric field",
+        "suppression",
+        "microgravity",
+        "novel"
+      ],
+      "source_url": "https://ntrs.nasa.gov/citations/20190001844",
+      "citation": "NASA/TM-2018-220098: Electric Field Effects on Microgravity Flames (E-FIELD Flames)",
+      "fire_safety_insight": "High-voltage electric fields can deflect, stabilize, or instantly extinguish microgravity flames by exerting force on flame ions. Promising active solid-state suppression without gas deployment."
+    },
+    {
+      "id": "C-FLAME",
+      "name": "Coflow Laminar Flame Experiment",
+      "short_name": "C-FLAME",
+      "description": "C-FLAME studied structure and stability of laminar coflow diffusion flames in microgravity, refining fundamental combustion theory for spacecraft models.",
+      "fuel_type": "gaseous",
+      "fuel_material": "methane, ethylene",
+      "hardware": "CIR",
+      "facility": "CIR",
+      "gravity": "microgravity",
+      "oxygen_concentration": [
+        21,
+        30
+      ],
+      "pressure_psi": [
+        10.2,
+        14.7
+      ],
+      "airflow": "forced",
+      "sensors": [
+        "thermocouple",
+        "radiometer",
+        "high-speed camera",
+        "gas analyzer"
+      ],
+      "objectives": [
+        "Characterize laminar coflow structure",
+        "Test fundamental combustion theory",
+        "Provide validation data for models"
+      ],
+      "key_findings": [
+        "Flame structure follows theory in 0-g",
+        "Soot formation enhanced at low flow",
+        "Data improve 2D combustion models"
+      ],
+      "variables": [
+        "fuel velocity",
+        "oxygen %",
+        "pressure",
+        "geometry"
+      ],
+      "relevance": {
+        "spacecraft": 7,
+        "moon_base": 6,
+        "mars": 6,
+        "rover": 6,
+        "earth": 7
+      },
+      "year": 2014,
+      "duration_days": 60,
+      "sample_count": 20,
+      "si_summary": "C-FLAME provides the fundamental laminar flame data needed to validate any spacecraft fire model, including those used in Saffire analysis.",
+      "tags": [
+        "laminar",
+        "coflow",
+        "structure",
+        "gaseous"
+      ],
+      "source_url": "https://ntrs.nasa.gov/citations/20150004120",
+      "citation": "NASA/TM-2014-218388: Coflow Laminar Flame Experiment Microgravity Sooting Limits",
+      "fire_safety_insight": "Confined oxygen concentration limits in laminar flows demonstrate that flame extinguishment by air throttling requires lowering O2 to below 11.5% in 0g (vs 14% on Earth)."
+    }
+  ]
+};
